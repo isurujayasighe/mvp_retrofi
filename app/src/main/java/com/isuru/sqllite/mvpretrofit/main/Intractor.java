@@ -18,7 +18,7 @@ public class Intractor implements MainView.Interactor {
 
     private MainView.onGetDataListener mOnGetDatalistener;
     List<ServiceProvider> serviceProviderList = new ArrayList<>();
-    List<String> allCountriesData = new ArrayList<>();
+
 
     public Intractor(MainView.onGetDataListener mOnGetDatalistener) {
         this.mOnGetDatalistener = mOnGetDatalistener;

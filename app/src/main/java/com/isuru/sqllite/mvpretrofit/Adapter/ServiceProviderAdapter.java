@@ -26,11 +26,6 @@ public class ServiceProviderAdapter extends RecyclerView.Adapter<ServiceProvider
         this.serviceProviderList = serviceProviderList;
     }
 
-    public void setServiceProviderList(List<ServiceProvider> serviceProviderList) {
-        this.serviceProviderList = serviceProviderList;
-        notifyDataSetChanged();
-    }
-
     @NonNull
     @Override
     public ServiceProviderAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
